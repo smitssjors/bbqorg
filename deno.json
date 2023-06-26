@@ -14,7 +14,8 @@
     "twind": "https://esm.sh/twind@0.16.19",
     "twind/": "https://esm.sh/twind@0.16.19/",
     "$std/": "https://deno.land/std@0.190.0/",
-    "nanoid": "https://esm.sh/nanoid@4.0.2"
+    "nanoid": "https://esm.sh/nanoid@4.0.2",
+    "@lib/": "./lib/"
   },
   "compilerOptions": {
     "jsx": "react-jsx",
