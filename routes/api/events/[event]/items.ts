@@ -12,7 +12,7 @@ export const handler: Handlers = {
           controller.enqueue(body);
         };
       },
-      cancel: channel.close,
+      cancel: () => channel.close(),
     });
 
     return new Response(stream.pipeThrough(new TextEncoderStream()), {
